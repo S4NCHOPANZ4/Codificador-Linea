@@ -34,9 +34,9 @@ from tkinter import ttk, messagebox
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
-from message_utils import text_to_bits, bits_to_text
-from encoding import ENCODERS
-from decoding import DECODERS
+from Activitites.decoder.message_utils import text_to_bits, bits_to_text
+from Activitites.decoder.encoding import ENCODERS
+from Activitites.decoder.decoding import DECODERS
 
 
 class LineCoderApp(tk.Tk):

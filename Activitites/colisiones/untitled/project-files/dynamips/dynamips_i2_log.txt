@@ -1,0 +1,33 @@
+Aug 19 17:46:55.206 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 19 17:46:55.207 HYPERVISOR: Started on IP = localhost, TCP port = 49827.
+Aug 19 17:46:55.713 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 19 17:46:55.713 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\BUITR\OneDrive\Documentos\2026-3\Activitites\colisiones\untitled\project-files\dynamips 
+Aug 19 17:46:55.716 GENERAL: working_dir=C:\Users\BUITR\OneDrive\Documentos\2026-3\Activitites\colisiones\untitled\project-files\dynamips
+Aug 19 17:46:55.716 HYPERVISOR: exec_cmd: nio_bridge create Hub1 
+Aug 19 17:47:34.793 HYPERVISOR: exec_cmd: nio create_udp udp-a3cf00cf-03bf-4816-aaba-2dec88d0067c 10001 127.0.0.1 10000 
+Aug 19 17:47:34.794 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-a3cf00cf-03bf-4816-aaba-2dec88d0067c 
+Aug 19 17:47:38.091 HYPERVISOR: exec_cmd: nio create_udp udp-aea70b73-429d-47c3-9f81-e0501567d30b 10003 127.0.0.1 10002 
+Aug 19 17:47:38.091 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-aea70b73-429d-47c3-9f81-e0501567d30b 
+Aug 19 17:47:41.190 HYPERVISOR: exec_cmd: nio create_udp udp-17b19a92-6c6c-4a10-946d-56166bd0233b 10005 127.0.0.1 10004 
+Aug 19 17:47:41.190 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-17b19a92-6c6c-4a10-946d-56166bd0233b 
+Aug 19 17:53:45.267 HYPERVISOR: exec_cmd: nio bind_filter udp-17b19a92-6c6c-4a10-946d-56166bd0233b 2 capture 
+Aug 19 17:53:45.267 HYPERVISOR: exec_cmd: nio setup_filter udp-17b19a92-6c6c-4a10-946d-56166bd0233b 2 en10mb C:\Users\BUITR\OneDrive\Documentos\2026-3\Activitites\colisiones\untitled\project-files\captures\101010224_Ethernet0_to_Hub1_Ethernet2.pcap 
+Aug 19 17:58:21.511 HYPERVISOR: exec_cmd: nio unbind_filter udp-17b19a92-6c6c-4a10-946d-56166bd0233b 2 
+Aug 19 17:58:23.926 HYPERVISOR: exec_cmd: nio bind_filter udp-17b19a92-6c6c-4a10-946d-56166bd0233b 2 capture 
+Aug 19 17:58:23.927 HYPERVISOR: exec_cmd: nio setup_filter udp-17b19a92-6c6c-4a10-946d-56166bd0233b 2 en10mb C:\Users\BUITR\OneDrive\Documentos\2026-3\Activitites\colisiones\untitled\project-files\captures\101010224_Ethernet0_to_Hub1_Ethernet2.pcap 
+Aug 19 18:02:52.534 HYPERVISOR: exec_cmd: nio unbind_filter udp-17b19a92-6c6c-4a10-946d-56166bd0233b 2 
+Aug 19 18:03:04.003 HYPERVISOR: exec_cmd: nio create_udp udp-c07a96d9-e50c-457e-be59-094a1c0cc146 10013 127.0.0.1 10012 
+Aug 19 18:03:04.003 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-c07a96d9-e50c-457e-be59-094a1c0cc146 
+Aug 19 18:03:06.835 HYPERVISOR: exec_cmd: nio create_udp udp-94cb1108-ca78-4721-8990-45bbce63c8d3 10015 127.0.0.1 10014 
+Aug 19 18:03:06.836 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-94cb1108-ca78-4721-8990-45bbce63c8d3 
+Aug 19 18:03:09.364 HYPERVISOR: exec_cmd: nio create_udp udp-d097bda7-5a76-4d32-ab6a-5510be778dc6 10017 127.0.0.1 10016 
+Aug 19 18:03:09.365 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-d097bda7-5a76-4d32-ab6a-5510be778dc6 
+Aug 19 18:05:48.675 HYPERVISOR: exec_cmd: nio bind_filter udp-17b19a92-6c6c-4a10-946d-56166bd0233b 2 capture 
+Aug 19 18:05:48.675 HYPERVISOR: exec_cmd: nio setup_filter udp-17b19a92-6c6c-4a10-946d-56166bd0233b 2 en10mb C:\Users\BUITR\OneDrive\Documentos\2026-3\Activitites\colisiones\untitled\project-files\captures\101010224_Ethernet0_to_Hub1_Ethernet2.pcap 
+Aug 19 18:12:52.691 HYPERVISOR: exec_cmd: nio create_udp udp-651beca3-42ef-4ba7-94ec-e701ee14ede2 10024 127.0.0.1 10025 
+Aug 19 18:12:52.691 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub1 udp-651beca3-42ef-4ba7-94ec-e701ee14ede2 
+Aug 19 18:13:00.948 HYPERVISOR: exec_cmd: nio unbind_filter udp-17b19a92-6c6c-4a10-946d-56166bd0233b 2 
+Aug 19 18:13:02.368 HYPERVISOR: exec_cmd: nio_bridge remove_nio Hub1 udp-17b19a92-6c6c-4a10-946d-56166bd0233b 
+Aug 19 18:13:02.376 HYPERVISOR: exec_cmd: nio delete udp-17b19a92-6c6c-4a10-946d-56166bd0233b 
+Aug 19 18:14:42.964 HYPERVISOR: Stopped.
+Aug 19 18:14:43.126 GENERAL: reset done.

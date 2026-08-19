@@ -8,7 +8,7 @@ arreglo de niveles de la señal (numpy.ndarray) y devuelven la cadena
 de bits original.
 """
 
-from encoding import SAMPLES_PER_BIT, INITIAL_LEVEL
+from Activitites.decoder.encoding import SAMPLES_PER_BIT, INITIAL_LEVEL
 
 
 def decode_manchester(signal) -> str:

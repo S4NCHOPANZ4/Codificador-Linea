@@ -1,0 +1,12 @@
+Aug 19 18:12:48.018 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Aug 19 18:12:48.019 HYPERVISOR: Started on IP = localhost, TCP port = 51702.
+Aug 19 18:12:48.455 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 19 18:12:48.455 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\BUITR\OneDrive\Documentos\2026-3\Activitites\colisiones\untitled\project-files\dynamips 
+Aug 19 18:12:48.455 GENERAL: working_dir=C:\Users\BUITR\OneDrive\Documentos\2026-3\Activitites\colisiones\untitled\project-files\dynamips
+Aug 19 18:12:48.456 HYPERVISOR: exec_cmd: nio_bridge create Hub2 
+Aug 19 18:12:52.714 HYPERVISOR: exec_cmd: nio create_udp udp-1766c3e2-47b8-4786-b105-195e499725ec 10025 127.0.0.1 10024 
+Aug 19 18:12:52.715 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub2 udp-1766c3e2-47b8-4786-b105-195e499725ec 
+Aug 19 18:13:08.655 HYPERVISOR: exec_cmd: nio create_udp udp-a52f1646-6bd6-46ee-a6d0-a32cb7668ab6 10004 127.0.0.1 10005 
+Aug 19 18:13:08.656 HYPERVISOR: exec_cmd: nio_bridge add_nio Hub2 udp-a52f1646-6bd6-46ee-a6d0-a32cb7668ab6 
+Aug 19 18:14:42.964 HYPERVISOR: Stopped.
+Aug 19 18:14:43.003 GENERAL: reset done.
