@@ -150,3 +150,6 @@ show vlan brief
 show interfaces trunk
 show running-config interface fa0/24
 ```
+
+
+![alt text](image.png)
